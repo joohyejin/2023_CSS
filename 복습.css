@@ -1,0 +1,24 @@
+.font {
+    font-family: Arial;
+    font-size: 300%;
+    font-weight: bold;
+}
+.list {
+    border: 2px black solid;
+    background-color: yellow;
+    list-style: circle;
+    width: 200px;
+    height: 100px;
+}
+
+.span {
+    color: green;
+    text-decoration:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red ;
+    font-family: 궁서체;
+}
+.span:hover {
+    color: palevioletred;
+    font-style: italic;
+}
