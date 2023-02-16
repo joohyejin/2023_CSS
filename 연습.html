@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="gr" width="300" height="300" style="border: 1px black solid;"></canvas>
+</body>
+<script>
+    var paper=document.getElementById("gr");
+    var context=paper.getContext("2d");
+
+    var grd=context.createLinearGradient(75,50,90,60)
+    grd.addcolorStop(0,"red");
+    grd.addcolorStop(1,"white");
+
+    context.fillStyle=grd;
+    context.fillRect(75,50,90,60)
+
+
+</script>
+</html>
