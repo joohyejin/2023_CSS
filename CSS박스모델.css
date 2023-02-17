@@ -94,7 +94,7 @@
     margin: inherit;
 }
 .my-m-auto {
-    margin: 0 auto;
+    margin:  0 auto;
 }
 .box {
     width: 200px;
@@ -104,4 +104,9 @@
     height: 30px;
     padding: 2px;
     border: solid 1px black;
+}
+.outline {
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: crimson;
 }

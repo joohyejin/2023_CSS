@@ -1,0 +1,42 @@
+.title {
+    border: 1px solid transparent;
+    padding: 20px 50px 20px 50px;
+    background-color: coral;
+    max-width: 400px;
+    min-width: 400px;
+    text-align: center;
+    border-radius: 10px 10px;
+}
+.list {
+    list-style-type: none;
+    border: 2px dashed black;  
+    border-radius: 10px 10px;
+    padding: 20px 15px 20px 15px;
+    width: 500px;
+    box-sizing: border-box;
+}
+.list p {
+    background-color: beige;
+    padding: 5px 0 5px 5px;
+}
+.link {
+    background-color: coral;
+    border-radius: 25px 25px;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+}
+.link:hover {
+    background-color: pink;
+}
+.naver {
+    text-decoration: none;
+    padding-bottom: 7px;
+}
+.margin {
+    margin: 30px 20px;
+}
+.naver:hover {
+    border-bottom: 3px green solid;
+    color: green;
+    font-weight: bold;
+}

@@ -64,8 +64,8 @@
     <a href="#" class="my-border my-m-auto">자동 마진입니다</a>
     <p class="my-border my-m-auto">자동 마진입니다</p>
     <p>display가 block이거나 inline 태그에 margin auto를 사용하면 실행되지 않는다</p>
-    <div class="box">
-        <a href="#" class="my-m-auto">자동마진입니다</a>
+    <div class="box my-m-auto">
+        <a href="#">자동마진입니다</a>
     </div>
     <h2>html 태그의 전체 크기 구하기</h2>
     <p style="height:30px">안녕하세요</p>
@@ -82,6 +82,29 @@
         box-size를 border-box로 변경을 하고 작성하면 height/width의 값이 border+padding+content값으로 바뀐다<br>
         크기값이 중요한 경우에는 border-box로 바꿔서 작성한다<br>
         크기계산이 편하기 때문
+    </p>
+    <h2>마진값-auto</h2>
+    <div class="my-border my-m-auto" style="width: 300;">
+        <p>margin 속성값 auto</p>
+    </div>
+    <p>
+        margin 속성값 auto 값을 사용해줄때는 display가 block속성(div), 
+        content크기가 부모보다 작아야 한다 (부모 크기와 같으면 마진이 들어갈 공간이 없다)br
+        margin-auto를 사용하면 부모의 크기 기준으로 중앙정렬 된다
+    </p>
+
+    <h2>아웃라인 outline</h2>
+    <p class="outline">아웃라인입니다</p>
+    <p>
+        outline은 border와 동일하게 사용할 수 있다<br>
+        그려지는 위치도 동일하게 그려진다<br>
+        단, 두께는 크기의 범위에 들어가지 않기 때문에 계산 할 필요가 없다
+    </p>
+    <p>
+        outline과 box-size에서 border-size로 작성했을 때, <br>
+        *outline을 사용하면 border값 계산x >> 요소의 크기 계산 : content + padding + margin<br>
+        *box-size를 사용하면 padding과 content(width/height)를 따로 계산 할 필요 없음 >content값만 계산 <br>
+        >> 요소의 크기 계산 : margin + content
     </p>
 </body>
 </html>
