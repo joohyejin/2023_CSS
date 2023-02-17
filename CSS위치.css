@@ -1,0 +1,48 @@
+.background-orange {
+    background-color: orange;
+}
+.inline-block {
+    width: 300px;
+    height: 300px;
+    display: inline-block
+}
+.hidden {
+    visibility: hidden;
+}
+.none {
+    display:none ;
+}
+.opacity {
+    background-color:cornsilk;
+    opacity: 40%;
+    /* 단위는 1~100%, 0~1숫자 */
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+}
+.position-r {
+    /* 상대위치를 쓰겠다 알림 */
+    position: relative;
+    left: 30px;
+    top:30px
+}
+.position-s {
+    position: static;
+    /* 정적위치에서는 이동할 수 없다 */
+    left: 30px;
+}
+.box-parent {
+    height: 300px;
+}
+.position-f {
+    position: fixed;
+    top :0;
+    right :0;
+}
+.position-a {
+    position: absolute;
+    top:225px;
+    left: 150px;
+}
