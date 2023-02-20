@@ -1,6 +1,6 @@
 .link {
     border: pink solid 4px;
-    margin: 20px;
+    
 }
 .link>ul {
     list-style-type: none;
@@ -10,7 +10,8 @@
 }
 .tag {
     position: absolute;
-    right: 30px;
+    right: 10px;
+    margin: 20px 0;
 }
 .tag>span {
     background-color: blue;
