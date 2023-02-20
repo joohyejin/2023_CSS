@@ -1,0 +1,85 @@
+.float-lef {
+    float: left;
+}
+.float-clear {
+    clear: both;
+}
+.header {
+    background-color: azure;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2rem;
+}
+.nav {
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 5px 0;
+}
+.main {
+    background-color: rgb(255, 234, 250);
+    height: 200px;
+    padding: 5px;
+    overflow: auto;
+}
+.section1, .section2 {
+    background-color: chartreuse;
+    height: 150px;
+}
+.section1 {
+    float: left;
+    width: 100px;
+
+}
+.section2 {
+    margin-left: 110px ;
+}
+.div-ray {
+    width: 80%; 
+    border: 2px solid yellow;
+    text-align: center;
+}
+.header-border {
+    border: solid 2px burlywood;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-border {
+    border: 2px solid palevioletred;
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.section-border {
+    border: 2px solid skyblue;
+    margin-left: 104px;
+    text-align: center;
+}
+.footer-border {
+    border: 2px solid mediumspringgreen;
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.float-right {
+    float: right;
+}
+.align-margin {
+    width: 150px;
+    margin: 0 auto;
+}
+.align-position {
+    position: absolute;
+    left: 40%;
+}
+
+.container {
+    background-color: azure;
+    overflow: auto;
+}

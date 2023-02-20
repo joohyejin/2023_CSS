@@ -17,3 +17,13 @@
     padding: 10px 10px;
     margin: 10px 10px;
 }
+a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+}
+.container {
+    background-color: azure;
+}
+.container img {
+    float: left;
+}
