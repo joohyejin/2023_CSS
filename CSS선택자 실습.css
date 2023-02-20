@@ -1,0 +1,20 @@
+.link {
+    border: pink solid 4px;
+    margin: 20px;
+}
+.link>ul {
+    list-style-type: none;
+}
+.link a {
+    text-decoration: none;
+}
+.tag {
+    position: absolute;
+    right: 30px;
+}
+.tag>span {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 35px 35px;
+}

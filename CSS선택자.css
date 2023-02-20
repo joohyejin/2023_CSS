@@ -1,0 +1,62 @@
+.outbox p {
+    background-color: yellow;
+}
+.outbox>p {
+    background-color: azure;
+}
+.sibling~p {
+    background-color: beige;
+}
+.sibling~a {
+    background-color: azure;
+}
+.sibling+p {
+    background-color: aqua;
+}
+.sibling~.test {
+    background-color: rgb(225, 255, 232);
+}
+.input-focus:focus {
+    background-color: hotpink;
+    color: chartreuse;
+}
+.input-focus:focus+p {
+    color: fuchsia;
+}
+.state>input:checked+span {
+    color: grey;
+}
+.state>input:disabled+span {
+    text-decoration: line-through 1px solid;
+}
+.menu-list>li:first-child {
+    background-color: khaki;
+}
+.menu-list>li:last-child {
+    background-color: rgb(240, 213, 140);
+}
+.menu-list>li:nth-child(2n) {
+    color: cornflowerblue;
+}
+.table-color {
+    border-collapse: collapse;
+}
+/*자손을 선택한 것이므로 tbody 무시*/
+.table-color tr:nth-child(2n) {
+    background-color: gold;
+}
+.table-color>tbody>tr:nth-child(odd) {
+    background-color: yellowgreen;
+}
+.child-tag>p:first-child {
+    color: blue;
+}
+.child-tag>h1 {
+    color: aqua;
+}
+p:first-of-type {
+    color: red;
+}
+.of-type p:first-of-type {
+    color: darkblue;
+}
