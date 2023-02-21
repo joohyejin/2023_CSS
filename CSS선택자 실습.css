@@ -7,6 +7,7 @@
 }
 .link a {
     text-decoration: none;
+    color: black;
 }
 .tag {
     position: absolute;
@@ -14,8 +15,45 @@
     margin: 20px 0;
 }
 .tag>span {
+    position: relative;
+    left: 69%;
     background-color: blue;
     color: white;
     padding: 8px;
     border-radius: 35px 35px;
+}
+.hash>ul {
+    list-style-type: none;
+}
+.hash>ul>li {
+    float: right;
+    background-color: blue;
+    color: white;
+    margin: 0 5px;
+    padding: 12px;
+    border-radius: 25px;
+}
+.new>p::after {
+    content: "N";
+    background-color: gold;
+    width: 23px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
+}
+.notice>ul {
+    list-style-type: none;
+}
+.notice>ul>li::after {
+    content: "N";
+    display: inline-block;
+    background-color: gold;
+    width: 20px;
+    height: 23px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
 }
